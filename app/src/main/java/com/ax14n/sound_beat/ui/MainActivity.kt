@@ -1,4 +1,4 @@
-package com.ax14n.sound_beat
+package com.ax14n.sound_beat.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

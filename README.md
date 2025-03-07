@@ -1,3 +1,6 @@
+> [!NOTE]
+> Este proyecto corresponde a mi trabajo de **final de grado**. Aunque el desarrollo comenzó recientemente, se espera que reciba actualizaciones significativas en las próximas semanas a medida que avance el proyecto.
+
 # 🎶 Sound-Beat: Sistema de Streaming de Música
 
 **Sound-Beat** es un proyecto de streaming de música que ofrece una experiencia fluida y sin interrupciones a los usuarios. Compuesto por un servidor que transmite música en tiempo real y una aplicación móvil en Android, esta plataforma está diseñada para ofrecer acceso rápido a canciones tanto en línea como locales. 

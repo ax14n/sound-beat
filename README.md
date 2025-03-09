@@ -3,7 +3,7 @@
 
 # 🎶 Sound-Beat: Sistema de Streaming de Música
 
-**Sound-Beat** es un proyecto de streaming de música que ofrece una experiencia fluida y sin interrupciones a los usuarios. Compuesto por un servidor que transmite música en tiempo real y una aplicación móvil en Android, esta plataforma está diseñada para ofrecer acceso rápido a canciones tanto en línea como locales. 
+**Sound-Beat** es un proyecto de streaming de música que ofrece una experiencia fluida y sin interrupciones a los usuarios. Compuesto por un servidor que transmite música en tiempo real y una aplicación móvil en Android, esta plataforma está diseñada para ofrecer acceso rápido a canciones tanto en línea como locales. En caso de no tener conectividad a internet o , dispondrá de una base de datos en local donde podrás crear playlists con las canciones que dispongas en local.   
 
 ---
 
@@ -35,26 +35,12 @@ La aplicación móvil **Sound-Beat** está desarrollada en **Kotlin** y proporci
 
 ---
 
-## 🔧 Requisitos
-
-### Servidor:
-- Servidor web que soporte múltiples conexiones simultáneas.
-- Implementación de **HLS** para la transmisión de audio.
-- **Ffmpeg** para la segmentación de archivos de música.
-
-### Aplicación Android:
-- **Kotlin** como lenguaje de desarrollo.
-- **ExpPlayer** para la reproducción de música.
-- **Conexión estable a Internet** para la transmisión de música en tiempo real.
-
----
-
 ## 📦 Instalación
 
 ### Servidor
 1. Clona este repositorio:
     ```bash
-    git clone <url_del_repositorio>
+    git clone https://github.com/ax14n/sound-beat-server
     ```
 2. Instala las dependencias necesarias.
 3. Configura el servidor y asegúrate de que está ejecutando **HLS** con **Ffmpeg** para la transmisión de audio.
@@ -62,45 +48,10 @@ La aplicación móvil **Sound-Beat** está desarrollada en **Kotlin** y proporci
 ### Aplicación Android
 1. Clona este repositorio:
     ```bash
-    git clone <url_del_repositorio>
+    git clone https://github.com/ax14n/sound-beat.git
     ```
 2. Abre el proyecto en Android Studio.
 3. Conecta tu dispositivo Android y ejecuta la aplicación.
-
----
-
-## ⚙️ Uso
-
-1. **Conectar a la aplicación**: Abre la aplicación Sound-Beat en tu dispositivo Android.
-2. **Navegar por las canciones**: Explora las canciones disponibles en el servidor.
-3. **Escuchar música**: Selecciona una canción para comenzar a escucharla sin interrupciones.
-4. **Crear playlists**: Añade canciones locales o del servidor a tus playlists personalizadas.
-
----
-
-## 🤝 Contribuciones
-
-Si deseas contribuir a este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tus cambios.
-3. Realiza tus cambios y haz un commit con un mensaje claro.
-4. Envía un Pull Request con una descripción de los cambios realizados.
-
----
-
-## 📜 Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-## 🛠️ Tecnologías Utilizadas
-
-- **Kotlin** para el desarrollo de la aplicación Android.
-- **Ffmpeg** para la segmentación de las canciones.
-- **HLS** para la transmisión de música en tiempo real.
-- **ExpPlayer** para la reproducción de audio.
 
 ---
 
